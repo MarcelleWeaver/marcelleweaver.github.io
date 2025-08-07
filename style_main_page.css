@@ -1,0 +1,600 @@
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 150%;
+position: relative;
+
+width: 100vw;
+overflow-x: hidden;
+}
+
+.nav_directions {
+    display: none;
+
+
+}
+
+nav {flex: 0.5;    }
+nav img {width: 70%;}
+
+
+
+.menu .hidden {
+
+display: none;
+
+justify-content: flex-start;
+
+}
+
+.menu .showing {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: black;
+width: 150%;
+height: 600%;
+position: absolute;
+top: 0;
+left: 0;
+rotate: -6.5deg;
+}
+
+.menu .showing li {
+    text-align: left;
+    margin-left: 3em;
+    padding: 1em 0;
+    font-size: 150%;
+}
+
+
+
+.menu .showing li{
+    text-align: left;
+    margin-left: 3em;
+    padding: 1em 0;
+
+}
+
+.menu_desktop 
+{display: none;}
+
+
+
+
+header {
+
+
+
+    margin-top: 5%;
+
+    display: flex;
+
+    flex-direction: row;
+
+    position: relative;
+
+    padding-left: 5%;
+
+    align-items: center;
+
+    margin-bottom: 3%;
+
+
+    rotate: 6.5deg;
+
+}
+
+
+
+#box1 {
+
+    background-color: black;
+
+    width: 130%;
+
+    height: 130%;
+
+    position:absolute;
+
+    top: -10%;
+
+    left: -10%;
+
+
+
+    z-index: -1;
+
+}
+#box2 {
+
+    background-color: black;
+
+    width: 130%;
+
+    height: 100%;
+
+    position:absolute;
+
+    top: 10%;
+
+    left: -10%;
+
+
+
+    z-index: -1;
+
+}
+
+
+
+
+
+#name {
+
+margin-left: 0%;
+
+flex: 2;
+
+margin-left: 5em;
+
+margin-right: 3em;
+
+}
+
+#name2 {
+    flex: 0.7;
+display: none;
+margin-left: 0%;
+
+flex: 2;
+
+margin-left: 5em;
+
+margin-right: 3em;
+
+}
+
+
+
+
+
+
+section {
+
+    margin-bottom: -3em;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+
+}
+
+.column1 {
+
+flex: 1;
+padding: 1%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;}
+
+
+.column2 {
+flex: 1;
+margin-top: 4em;
+padding: 1%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;}
+
+
+
+
+
+.piece { 
+display: flex;
+flex-direction: row;
+z-index: -2;
+padding-bottom: 2%;
+
+
+}
+
+.piece p {
+flex: 1;
+
+}
+
+figure { 
+margin: 0%;
+
+}
+
+.asset {
+display: none;
+
+}
+
+.piece_reverse {
+display: flex;
+flex-direction: row-reverse;
+z-index: -2;
+padding-bottom: 2%;
+
+}
+
+
+
+footer {
+    margin-top: 6em;
+color: white        ;
+
+padding: 3% 0;
+
+display: flex;
+
+justify-content: space-evenly;
+
+rotate: 6.5deg;
+
+height: 7%;
+
+}
+
+footer p{
+    font-size: 4vw;
+    max-width: 10em;
+    margin: 0;
+}
+
+
+footer img {
+width: 10%;
+margin-top: .3em;
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    body {
+               display: flex;
+               flex-direction: column;
+    }
+
+    .menu 
+    { display: none;
+
+} 
+    .hidden {
+        display: none;
+    }
+    .showing
+    {display: none;}
+    .menu_desktop {
+        display: flex;
+         display: flex;
+        justify-content: space-evenly;
+
+    }
+        
+    nav {
+        margin: 0 1em;
+       
+        width: 30em;
+        
+    }   
+
+    section {
+        max-width: 1400px;
+     
+ 
+      
+    }
+
+
+    .column1 {
+        justify-content: right;
+
+    flex: 1;
+    padding: unset;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;}
+
+
+    .column2 {flex: 1;
+    margin-top: 0;
+    padding: unset;
+    display:flex;
+    flex-wrap: unset;
+    flex-direction: row;}
+
+
+        .piece {
+    padding: 0.25em;
+    display: flex;
+    flex-direction: column;
+
+    
+    }
+
+            .piece_reverse {
+    padding: 0.25em;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+            
+    
+    }
+
+    .piece_reverse p, .piece p {
+        font-size: 17pt;
+    }
+
+    
+
+    figure {
+        
+  max-width: 20em;
+
+    }
+
+    #box1 {
+        height: 9em;
+        top: -0%;
+    }
+
+    .nav_directions {
+        
+        display: flex;
+        margin-right: 1%;
+        align-items: flex-end;
+        justify-content: space-around;
+        font-size: 3lvw;
+    }
+
+
+    #name {
+        display: none;
+    }   
+    
+    #name2 {
+        flex: 0.5;
+        display: flex;
+        margin: 0;
+    } 
+
+    #name2 img {
+        margin: 0;
+        
+    }
+
+    header {
+
+
+        justify-content: space-between;
+        margin-top: 5%;
+
+        display: flex;
+
+        flex-direction: row-reverse;
+
+        position: relative;
+
+        padding-left: 5%;
+
+        align-items: center;
+
+        margin-bottom: 3%;
+
+        height: 10em;
+
+        rotate: 3deg;
+
+    }
+
+    .options {
+      display: none;
+
+    }
+    
+
+
+    footer {
+        justify-content: start;
+        rotate: 3deg;
+        font-size: 70%;    
+    }
+    footer img {
+        margin-left: 3%;
+        max-width: 5%;}
+    footer p {
+        margin-left: 3%;
+
+    }
+
+
+
+footer p {font-size: 1.2em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/*  link styling  */
+ 
+    nav a:link {
+        text-decoration: none;
+          font-style: normal;
+          color: rgb(255, 255, 255);
+        }
+        
+        /* visited link */
+        nav a:visited {
+          color: rgb(255, 255, 255);
+        }
+        
+        /* mouse over link */
+        nav a:hover {
+          color: lightgrey;
+        }
+        
+        /* selected link */
+        nav a:active {
+          color: grey;
+        }
+
+    header img {object-fit: fill;
+        margin-top: 1em;
+ 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* resets dont look */
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3, p, nav ul {
+
+
+
+ margin: 0;
+
+
+
+ padding: 0;
+
+
+
+/* this removes default margin/padding 
+
+
+
+ from these elements. You might want to add
+
+
+
+ a few others in here.*/
+
+
+
+}
+
+
+
+img {
+
+
+
+ display: block;
+
+
+
+ max-width: 100%;
+
+
+
+ height: auto;
+
+
+
+/* this sets images as block elements
+
+
+
+ and makes sure they don't bust out of 
+
+
+
+ their containers, and that they maintain
+
+
+
+ their aspect ratio. */
+
+
+
+}
+
+
+
+nav ul {
+
+
+
+ list-style-type: none;
+
+
+
+/* gets rid of bullets */
+
+
+
+}
+
+
+
+/* You *might* want to convert all elements
+
+
+
+to box-sizing: border box */
+
+
+
+* {
+
+
+
+ box-sizing: border-box;
+
+
+
+}
