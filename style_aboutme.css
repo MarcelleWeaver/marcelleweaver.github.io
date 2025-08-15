@@ -27,31 +27,20 @@ margin-bottom: 5%;
 
 }
 
-
-
-
-
 h2 {
 
 font-size: 90%;
-
-
-
 }
-
 .nav_directions {
 
     display: none;
 
-
-
-
-
 }
 
 
 
-nav {flex: 0.5;    }
+nav {flex: 0.5;}
+
 
 nav img {width: 70%;}
 
@@ -62,16 +51,8 @@ nav img {width: 70%;}
 
 
 .menu .hidden {
-
-
-
 display: none;
-
-
-
 justify-content: flex-start;
-
-
 
 }
 
@@ -200,39 +181,13 @@ header {
 
 #box1 {
 
-
-
     background-color: black;
-
-
-
     width: 130%;
-
-
-
     height: 130%;
-
-
-
     position:absolute;
-
-
-
     top: -10%;
-
-
-
     left: -10%;
-
-
-
-
-
-
-
     z-index: -1;
-
-
 
 }
 
@@ -740,9 +695,8 @@ margin-top: .3em;
 
 
     #box1 {
-        display: none;
+      
         height: 9em;
-
         top: -0%;
 
     }
