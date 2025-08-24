@@ -1,0 +1,82 @@
+
+body {
+
+} 
+
+section {
+display: flex;
+flex-wrap: wrap;
+}
+
+figure {
+margin: 0;
+margin: 0.3em auto;
+padding: 0;
+
+}
+
+
+
+@media only screen and (min-width: 601px) {
+
+figure {
+margin: 0.3em 0.3em;
+padding: 0;
+display: flex;
+
+}
+
+figure img {
+max-height: 20em;
+flex: 0.4;
+}
+
+p {
+flex: 0.5;
+
+}
+
+}
+
+
+/* resets dont look*/
+
+h1, h2, h3, p, nav ul {
+ margin: 0;
+ padding: 0;
+
+/* this removes default margin/padding 
+ from these elements. You might want to add
+ a few others in here.*/
+}
+
+
+
+img {
+ display: block;
+ max-width: 100%;
+ height: auto;
+
+/* this sets images as block elements
+ and makes sure they don't bust out of 
+ their containers, and that they maintain
+ their aspect ratio. */
+}
+
+
+
+nav ul {
+ list-style-type: none;
+
+/* gets rid of bullets */
+}
+
+/* You *might* want to convert all elements
+to box-sizing: border box 
+
+* {
+ box-sizing: border-box;
+
+}
+
+*/

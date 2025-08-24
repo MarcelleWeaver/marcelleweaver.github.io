@@ -1,0 +1,175 @@
+
+
+#name {
+margin: 0em 2em;
+display: flex;
+flex: 0.7;
+
+}
+
+#name2 {
+display: none;
+}
+
+.menu_desktop {
+display: none;
+  margin-top: auto;
+
+}
+
+.menu .hidden {
+display: none;
+
+}
+
+.menu
+{
+  margin: 1em;
+  flex: 0.2;
+}
+
+.menu .showing {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: black;
+width: 110%;
+height: 600%;
+position: absolute;
+top: -20%;
+rotate: -6.5deg;
+background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
+}
+
+.menu .showing ul {
+margin-left: 2em;
+margin-top: 5em;
+position: relative;
+}
+
+.menu .showing li:first-of-type {
+position: absolute;
+right: 30%;
+width: 15%;
+
+}
+
+
+
+
+
+nav {
+justify-content: space-around;
+background-color: black;
+rotate: 6.5deg;
+display: flex;
+align-items: center;
+padding: 1rem 2vw;
+margin: 2% -3%;
+position: relative;
+background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
+
+}
+
+
+footer {
+background-color: black;
+rotate: 6.5deg;
+color: white;
+display: flex;
+align-items: left;
+flex-wrap: wrap;
+padding: 1rem 4vw;
+margin: 2% -3%;
+background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
+
+
+}
+
+.footer_bits {
+display: flex;
+flex-direction: row;
+padding: 0.5em 3em;
+}
+
+footer img {
+padding: 0em 0.5em;
+
+}
+
+
+@media only screen and (min-width: 601px) {
+
+    nav {
+    flex-direction:row-reverse;
+    rotate: 3.5deg;
+    }
+
+    footer {
+    rotate: 3.5deg;
+    }
+
+    #name {
+    display: none;
+
+    }
+
+    #name2 {
+    display: flex;
+    flex: 1.2;
+    margin: 0em 1em 0em 3em;
+
+
+    }
+
+    .options2 {
+    display: none;
+    }
+
+    .menu_desktop {
+    flex: 1;
+    display: flex;
+
+    }
+
+    .menu {
+    display: none;
+
+    }
+
+
+    nav ul {
+    
+      list-style-type: none;
+      display: flex;
+      max-width: 72rem;
+      margin: 0 auto;
+    }
+    
+
+    nav a:hover {
+      color: grey;
+    }
+
+}
+
+
+/* body style */
+body {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+.logo {
+    width: 60%;
+    margin: 0;
+  }
+  
+.logo img {
+    width: 60%;
+    height: auto;
+    margin: 0;
+  }
