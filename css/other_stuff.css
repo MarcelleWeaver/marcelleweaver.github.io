@@ -1,0 +1,75 @@
+
+
+
+h3 {font-size: 200%;
+max-width: unset;
+}
+
+.figure2 img , figure img {    
+margin: auto;
+}
+
+figure, .figure2  {
+margin: 1% 1% 3em 1%;
+}
+ 
+
+#postman
+{width: 70%;}
+
+#arrows {flex-direction: column-reverse;
+}
+
+#arrows img 
+{ rotate: 90deg;
+  max-width: 10em;
+  max-height: 10em;
+  margin: 1em;}
+
+section {
+flex-wrap: wrap;
+
+}
+
+
+@media only screen and (min-width: 601px) {
+
+#arrows
+{flex-direction: row;}
+
+
+
+#arrows img 
+{ rotate: 0deg;
+  max-width: 10em;
+  max-height: 10em;
+  margin: 1em;}
+
+p {
+width: 70%;
+}
+
+section{
+flex-direction: column;
+margin: auto;
+  margin-left: 5%;
+}
+
+
+h3{
+
+font-size: 300%;
+
+}
+
+
+
+article div {
+
+display: flex;
+flex-direction: row;
+
+}
+
+}
+

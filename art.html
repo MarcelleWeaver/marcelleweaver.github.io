@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelle Weaver</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/header_footer.css" rel="stylesheet">
+    <link href="css/art.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu"> 
+
+                <img class="options" src="assets/dropdown.png" alt="3 bars, click to accesfs menu">
+
+                <div class="hidden"> 
+                    <ul>             
+
+                    <li><img class="options2" src="assets/exit.png" alt="exit" ></li> 
+                    <li><h2><a href="art.html">art</a></h2></li>
+                    <li><h2><a href="design.html">design</a></h2></li>
+                    <li><h2><a href="other_stuff.html">other stuff</a></h2></li>
+                    <li><h2><a href="about_me.html">about me</a></h2></li>
+                    </ul>
+                    </div>
+            </div>
+
+        
+            <div class="menu_desktop">
+                <h2 class="nav_directions"><a href="art.html">art</a></h2>
+                <h2 class="nav_directions"><a href="design.html">design</a></h2>
+                <h2 class="nav_directions"><a href="other_stuff.html">other stuff</a></h2>
+                <h2 class="nav_directions"><a href="about_me.html">about me</a></h2>
+            
+            </div>
+
+            <div id="name"><a href="index.html"><img src="assets/name_stack.png" alt="marcelle weaver"></a></div>
+            <div id="name2"><a href="index.html"><img src="assets/name_full.png" alt="marcelle weaver"></a></div>
+            
+        </nav>
+    </header>
+
+
+<section>
+    
+
+            <figure>
+                <img src="images/plane.png" alt="#">
+            </figure>
+
+
+
+            <figure>
+                <img src="images/oranges.png">
+            </figure>
+        
+            <figure>
+                <img src="images/sea.png">
+            </figure>
+
+            
+            <figure>
+                <img src="images/artight.png">
+            </figure>
+
+            <figure>
+                <img src="images/dragon.png">
+            </figure>
+
+            <figure>
+                <img src="images/alba.png">
+            </figure>
+
+            <figure>
+                <img src="images/jurgen.png">
+            </figure>
+            
+            <figure>
+                <img src="images/bunker.png">
+            </figure>
+
+            <figure>
+                <img src="images/schwartz.PNG">
+            </figure>
+
+            <figure>
+                <img src="images/pearl.png" alt="#">
+            </figure>
+       
+            <figure>
+                <img src="images/me.png">
+            </figure>
+
+            <figure>
+                <img src="images/fast_plane.png">
+            </figure>
+
+
+
+
+    </section>
+
+    
+    
+     <footer>
+        
+        <div class="footer_bits"><img class="icon" src="assets/icons8-discord-64_background.png"><p>.meepster</p></div>
+        <div class="footer_bits"><img class="icon" src="assets/icons8-instagram-48_background.png"> <p>marcelletweaver@gmail.com</p></div>
+        <div class="footer_bits" ><img class="icon" src="assets/icons8-email-48_background.png"><p>@marcelletweaver</p></div>
+
+     </footer>
+
+
+
+    
+     <!-- SCRIPT ZONE KEEP OUT-->
+     <script>
+        const options_button = document.querySelector('.options');
+        const menu = document.querySelector('.menu div');
+        const options_button2 = document.querySelector('.options2');
+        
+        options_button.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+        });
+
+        options_button2.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+        });
+
+        
+    </script>
+
+
+</body>
+</html>

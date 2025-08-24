@@ -1,9 +1,8 @@
 
-body {
-
-} 
-
 section {
+margin-left: 2%;
+background-color: white;
+
 display: flex;
 flex-wrap: wrap;
 }
@@ -16,8 +15,12 @@ padding: 0;
 }
 
 
-
 @media only screen and (min-width: 601px) {
+
+
+article {
+margin: 0 0.5em;
+}
 
 figure {
 margin: 0.3em 0.3em;

@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelle Weaver</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/header_footer.css" rel="stylesheet">
+    <link href="css/other_stuff.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu"> 
+
+                <img class="options" src="assets/dropdown.png" alt="3 bars, click to accesfs menu">
+
+                <div class="hidden"> 
+                    <ul>             
+
+                    <li><img class="options2" src="assets/exit.png" alt="exit" ></li> 
+                    <li><h2><a href="art.html">art</a></h2></li>
+                    <li><h2><a href="design.html">design</a></h2></li>
+                    <li><h2><a href="other_stuff.html">other stuff</a></h2></li>
+                    <li><h2><a href="about_me.html">about me</a></h2></li>
+                    </ul>
+                    </div>
+            </div>
+
+        
+            <div class="menu_desktop">
+                <h2 class="nav_directions"><a href="art.html">art</a></h2>
+                <h2 class="nav_directions"><a href="design.html">design</a></h2>
+                <h2 class="nav_directions"><a href="other_stuff.html">other stuff</a></h2>
+                <h2 class="nav_directions"><a href="about_me.html">about me</a></h2>
+            
+            </div>
+
+            <div id="name"><a href="index.html"><img src="assets/name_stack.png" alt="marcelle weaver"></a></div>
+            <div id="name2"><a href="index.html"><img src="assets/name_full.png" alt="marcelle weaver"></a></div>
+            
+        </nav>
+    </header>
+
+
+<section>
+    
+
+               <figure>         
+            <img src="images/postman_1.png" alt="#">
+                
+            <article>
+                <h4>Class Project</h4>
+                <div id="postman">
+                <h3>The Last Postman 2076</h3>        
+                <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/3373110"><a href="https://meep-marcelle.itch.io/the-last-postman-2076">The Last Postman 2076 by Meep-Marcelle</a></iframe>
+                </div>
+                <p>This was the final for a narrative games design class, where the assignment was to use one of several small game engines to create our final product. I ended up choosing to learn how to use and develop the whole game in Godot within the two week development pattern because a more versatile engine was needed to achieve the visuals I had in mind. </p>
+           
+
+            </article>
+            </figure >
+            <figure>
+                <article><h4>Independent Work</h4>
+                <h3>This Website</h3>
+                <div id='arrows'>
+                <p>This website started off as a class project, however I've continued to update and improve the design with an eye towards creating something that presented my works in a clearly readable way, while also still being a bit of fun. Coherency was difficult due to the nature of portfolio site requiring a lot of conflicting pieces in one place, and in the end I've chosen design that leaves most of the works in a neutral white space that is boxed in by more characterful elements like the banner.  </p>
+    <img src="assets/arrows.png">
+                    </div>
+                </article>
+            
+            </figure>
+
+
+    </section>
+
+    
+    
+     <footer>
+        
+        <div class="footer_bits"><img class="icon" src="assets/icons8-discord-64_background.png"><p>.meepster</p></div>
+        <div class="footer_bits"><img class="icon" src="assets/icons8-instagram-48_background.png"> <p>marcelletweaver@gmail.com</p></div>
+        <div class="footer_bits" ><img class="icon" src="assets/icons8-email-48_background.png"><p>@marcelletweaver</p></div>
+        <div class="footer_bits" ><img id="silly" src="assets/smile_light.png"></div>
+
+     </footer>
+
+
+
+    
+     <!-- SCRIPT ZONE KEEP OUT-->
+     <script>
+        const options_button = document.querySelector('.options');
+        const menu = document.querySelector('.menu div');
+        const options_button2 = document.querySelector('.options2');
+        
+        options_button.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+        });
+
+        options_button2.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+        });
+
+        
+    </script>
+
+
+</body>
+</html>

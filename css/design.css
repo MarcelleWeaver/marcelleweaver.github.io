@@ -1,0 +1,57 @@
+
+
+h3 {font-size: 200%;
+max-width: unset;
+}
+
+.figure2 img , figure img {    
+margin: auto;
+}
+
+figure, .figure2  {
+margin: 1% 1%;
+}
+ 
+
+
+
+section {
+flex-wrap: wrap;
+
+}
+
+
+@media only screen and (min-width: 601px) {
+
+p {
+width: 70%;
+}
+
+section{
+flex-direction: column;
+margin: auto;
+  margin-left: 5%;
+}
+
+
+h3{
+
+font-size: 300%;
+
+}
+
+
+
+
+
+figure img {
+max-height: 30em;
+max-width: 100em;
+}
+
+
+    figure, .figure2 {
+    width: 85%;
+
+}
+}
