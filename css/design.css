@@ -4,11 +4,9 @@ h3 {font-size: 200%;
 max-width: unset;
 }
 
-
 figure, .figure2  {
 margin: 3% 1%;
 }
-
 
 section {
 flex-wrap: wrap;
@@ -16,8 +14,9 @@ flex-wrap: wrap;
 }
 
 
-@media only screen and (min-width: 601px) {
 
+
+@media only screen and (min-width: 601px) {
 p {
 width: 70%;
 }
@@ -36,17 +35,15 @@ font-size: 300%;
 }
 
 
-
-
-
 figure img {
 max-height: 30em;
 max-width: 100em;
 }
 
 
-    figure, .figure2 {
-    width: 85%;
+figure, .figure2 {
+width: 85%;
 
 }
+
 }
