@@ -133,8 +133,11 @@ width: 25%;
     }
 
     .menu_desktop {
+
     flex: 1;
     display: flex;
+      margin: 0 2em 0 auto;
+                  margin-top: auto;
 
     }
 
@@ -145,11 +148,10 @@ width: 25%;
 
 
     nav ul {
-    
       list-style-type: none;
       display: flex;
       max-width: 72rem;
-      margin: 0 auto;
+
     }
     
 
