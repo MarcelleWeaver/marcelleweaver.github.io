@@ -80,7 +80,7 @@ color: white;
 display: flex;
 align-items: left;
 flex-wrap: wrap;
-padding: 1rem 4vw;
+
 margin: 3% -3% 2% -3%;
 background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
 
@@ -136,8 +136,8 @@ width: 25%;
 
     flex: 1;
     display: flex;
-      margin: 0 2em 0 auto;
-                  margin-top: auto;
+    margin: 0 2em 0 auto;
+    margin-top: auto;
 
     }
 
