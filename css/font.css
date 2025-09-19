@@ -57,6 +57,14 @@ padding: .85rem 1rem;
 color: #ffffff;
 
 }
+nav #name a {
+text-decoration: unset;
+display: unset;
+padding: unset;
+color: unset;
+
+}
+
 
 .menu_desktop {
 font-family: "Roboto", sans-serif;
