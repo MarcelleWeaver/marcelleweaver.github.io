@@ -74,6 +74,12 @@ background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
 
 
 footer {
+  width: 120% ;
+padding: 0.5em 2em;
+position: relative;
+left: -1em;
+flex-direction: column;
+font-size: 5vw;
 background-color: black;
 rotate: 6.5deg;
 color: white;
@@ -90,17 +96,19 @@ background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
 .footer_bits {
 display: flex;
 flex-direction: row;
-padding: 0.5em 3em;
+margin: 0.25em;
+
 }
 
 footer img {
+  height: 3em;
 padding: 0em 0.5em;
 
 }
 
 #silly  {
-width: 25%;
-  
+width: 3em;
+  height: 2em;
 
 }
 
@@ -112,6 +120,9 @@ width: 25%;
     }
 
     footer {
+    width: 100% ;
+    font-size: unset;
+    flex-direction: row;
     rotate: 3.5deg;
     }
 
@@ -159,6 +170,10 @@ width: 25%;
       color: grey;
     }
 
+
+    .footer_bits {
+    padding: 0.5em 3em;
+}
 
 
 }

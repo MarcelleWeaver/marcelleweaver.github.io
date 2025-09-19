@@ -1,12 +1,12 @@
+html, body {
+  overflow-x: hidden;
+}
 body {
-
-width: 100vw;
-overflow-x: hidden;
+  position: relative
 }
 
-
 section {
-margin-left: 2%;
+margin: 0em 2%;
 background-color: white;
 
 display: flex;

@@ -6,16 +6,21 @@ max-width: unset;
 }
 
 .figure2 img , figure img {    
-margin: auto;
+
+    margin-right: auto;
+  margin-left: 2%;
 }
 
 figure, .figure2  {
-margin: 1% 1% 3em 1%;
+    margin: 1% 1% 3em 1%;
+    display: flex
+;
+    flex-direction: column;
 }
  
 
 #postman
-{width: 70%;}
+{width: 80%;}
 
 #arrows {flex-direction: column-reverse;
 }
@@ -38,6 +43,8 @@ flex-wrap: wrap;
 {flex-direction: row;}
 
 
+#postman
+{width: 100%;}
 
 #arrows img 
 { rotate: 0deg;
