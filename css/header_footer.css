@@ -52,10 +52,13 @@ position: relative;
 position: absolute;
 right: 30%;
 width: 15%;
-
+top: -20%;
 }
 
+#name2 a {
+padding: unset;
 
+}
 
 
 
@@ -147,8 +150,10 @@ width: 3em;
 
     flex: 1;
     display: flex;
-    margin: 0 2em 0 auto;
+    
+    margin: 0 2em 0 0;
     margin-top: auto;
+    justify-content: space-evenly;
 
     }
 

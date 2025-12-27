@@ -53,7 +53,8 @@ font-weight: 120;
 nav a {
 text-decoration: none;
 display: block;
-padding: .85rem 1rem;
+  padding: 2rem 2rem 0rem 0rem;
+/* padding: .85rem 1rem; */
 color: #ffffff;
 
 }
@@ -69,7 +70,7 @@ color: unset;
 .menu_desktop {
 font-family: "Roboto", sans-serif;
 font-weight: 300;
-font-size: 1.8vw;
+font-size: 2.5vw;
 
 }
 
