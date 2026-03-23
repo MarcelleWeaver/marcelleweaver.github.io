@@ -84,7 +84,7 @@ left: -1em;
 flex-direction: column;
 font-size: 5vw;
 background-color: black;
-rotate: 6.5deg;
+/*rotate: 6.5deg;*/
 color: white;
 display: flex;
 align-items: left;
@@ -126,7 +126,7 @@ width: 3em;
     width: 100% ;
     font-size: unset;
     flex-direction: row;
-    rotate: 3.5deg;
+    /*rotate: 3.5deg;*/
     }
 
     #name {
