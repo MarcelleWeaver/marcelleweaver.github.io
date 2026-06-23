@@ -11,6 +11,7 @@ flex: 0.7;
 display: none;
 }
 
+
 .menu_desktop {
 display: none;
   margin-top: auto;
@@ -58,6 +59,17 @@ top: -20%;
 #name2 a {
 padding: unset;
 
+}
+
+
+#subtitle {
+padding: 0 0 0 0.5em;
+  margin-top: -1em;
+  /*margin-bottom: -0.em;*/
+  }
+
+#subtitle h1{
+  margin-bottom: -0.2em;
 }
 
 
@@ -120,6 +132,12 @@ width: 3em;
     nav {
     flex-direction:row-reverse;
     rotate: 3.5deg;
+    }
+
+    #subtitle {
+    padding: 0 0 0 0.5em;
+    margin-top: -1em;
+    /*margin-bottom: -0.5em;*/
     }
 
     footer {
