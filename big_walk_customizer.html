@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <link href="css/bigwalk.css" rel="stylesheet"> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Walk Customizer</title>
+
+</head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+<body class="wawa">
+    <header>
+    <img src="assets/bigwalkLogo.png" alt="">
+
+    </header>
+
+    <main>
+    <div id="grid">
+        
+        <figure id="g1"></figure>
+        
+        <figure id="g2"></figure>
+        
+        <figure id="g3"></figure>
+    
+        <figure id="g4"></figure>
+        
+        <figure id="g5"></figure>
+        
+        <figure id="g6"></figure>
+    
+        <figure id="g7"></figure>
+    
+            <figure id="g8"></figure>
+        
+        <figure id="g9"></figure>
+        
+        <figure id="g10"></figure>
+    
+        <figure id="g11"></figure>
+        
+        <figure id="g12"></figure>
+        
+        <figure id="g13"></figure>
+    
+        <figure id="g14"></figure>
+    
+            <figure id="g15"></figure>
+        
+        <figure id="g16"></figure>
+        
+        <figure id="g17"></figure>
+    
+        <figure id="g18"></figure>
+        
+        <figure id="g19"></figure>
+        
+        <figure id="g20"></figure>
+    
+        <figure id="g21"></figure>
+    
+
+    </div>    
+
+    <div id="character">
+        
+        <div id="body">
+        
+            <div class="parts mask1"    id="top2">    </div>
+            <div class="parts mask2"    id="middle2"> </div>
+            <div class="parts mask3"    id="bottom2"> </div>
+            <div class="parts " id="special"   > </div>
+        </div>
+
+        <div id="unclickable">
+
+            <div class="parts"   id="top">    </div>
+            <div class="parts"   id="middle"> </div>
+            <div class="parts"   id="bottom"> </div>
+
+        </div>
+
+
+        </div>
+        <!--     
+        <div id = "example">
+            <figure id="e1">1 x 1</figure>
+            
+            <figure id="e2">2 x 1</figure>
+            
+            <figure id="e3">3 x 1</figure>
+            -->
+   
+   
+    </div>
+    </main>
+
+    <footer>
+     <p class="">Made this largely for myself.</p>
+    </footer>
+
+</body>
+
+
+
+
+
+<script>
+
+    var activePart = document.querySelector("#top2");
+    const boxes = document.querySelectorAll("figure");
+    const bodys = document.querySelectorAll(".parts");
+
+    <!-- color changer-->
+    boxes.forEach((div) => {
+    div.addEventListener("click", (e) => {
+    let bgColor = window.getComputedStyle(e.currentTarget).getPropertyValue("background-color");
+    
+    activePart.style.backgroundColor = bgColor;
+    
+    });
+    });
+
+    
+    
+    bodys.forEach((div) => {
+    div.addEventListener("click", (e) => {
+    
+    activePart = document.querySelector("#" + e.target.id + "2");
+    console.log(activePart);
+});
+    });
+
+
+</script>
+
+</html>
