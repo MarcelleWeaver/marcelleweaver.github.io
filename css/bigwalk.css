@@ -68,7 +68,7 @@ left:0;
 
 #special {
 
-background-image: url(https://marcelleweaver.github.io/assets/eye.png);
+background-image: url(../assets/eye.png);
 background-size: contain;
 background-repeat: no-repeat;
 z-index: 5;
@@ -132,13 +132,13 @@ mask-repeat: no-repeat;
 }
 
 .mask2 {
-mask-image: url(torso.png);
+mask-image: url(../assets/torso.png);
 mask-size: contain;
 mask-repeat: no-repeat;
 }
 
 .mask3 {
-mask-image: url(http://localhost:8000/assets/legs.png);
+mask-image: url(../assets/assets/legs.png);
 mask-size: contain;
 mask-repeat: no-repeat;
   
