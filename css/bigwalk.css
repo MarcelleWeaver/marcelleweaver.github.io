@@ -126,7 +126,7 @@ left: 7vw;
 
 
 .mask1 {
-mask-image: url(http://localhost:8000/assets/head.png);
+mask-image: url(https://marcelleweaver.github.io/assets/head.png);
 mask-size: contain;
 mask-repeat: no-repeat;
 }
