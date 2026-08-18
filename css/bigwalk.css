@@ -138,7 +138,7 @@ mask-repeat: no-repeat;
 }
 
 .mask3 {
-mask-image: url(../assets/assets/legs.png);
+mask-image: url(../assets/legs.png);
 mask-size: contain;
 mask-repeat: no-repeat;
   
