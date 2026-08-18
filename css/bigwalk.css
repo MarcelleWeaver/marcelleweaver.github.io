@@ -126,13 +126,13 @@ left: 7vw;
 
 
 .mask1 {
-mask-image: url(https://marcelleweaver.github.io/assets/head.png);
+mask-image: url(/assets/head.png);
 mask-size: contain;
 mask-repeat: no-repeat;
 }
 
 .mask2 {
-mask-image: url(http://localhost:8000/assets/torso.png);
+mask-image: url(/assets/torso.png);
 mask-size: contain;
 mask-repeat: no-repeat;
 }
