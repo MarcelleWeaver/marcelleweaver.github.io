@@ -73,7 +73,16 @@ background-repeat: no-repeat;
 z-index: 5;
 }
 
+#top:hover {
+   
+}
+
+
+#top:hover ~ #top2 { background-color: yellow; animation: shake;
+    width: 20em; }
+
 #top2 {
+    
 /*top: 0.3em;
     left: 2.8em;
     width: 70px;
@@ -129,11 +138,46 @@ position: relative;
 }
 
 
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+
+  transform: scale(1.1);
+
+
+  }
+
+.grow:active {
+ animation: bounce .1s infinite alternate ;
+ animation-timing-function: ease-in;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
 
 
 
 .mask1 {
+
+
 mask-image: url(../assets/head.png);
 mask-size: contain;
 mask-repeat: no-repeat;
@@ -159,7 +203,7 @@ margin: 1em;
 min-width: 3em;
 min-height: 3em; 
 aspect-ratio: 1 / 1;
-
+  filter: drop-shadow(1px 5px 5px #b3b3b3);
 }
 
 footer {
@@ -169,13 +213,14 @@ border-width: 2px 0 2px 0;
 justify-content: center;
 align-items: center;
 width: 60%;
-margin: 0 auto 0 auto;
+margin: 2em auto 0 auto;
+flex-direction: column;
+
 }
 
 footer p {
 margin: 1em auto 1em auto;
-width: 100%;
-
+text-align: center;
 }
 
 
@@ -223,7 +268,7 @@ width: 100%;
 ;}
 
 #g11 {background-color: 
-y#A53E0C
+#A53E0C
 ;}
 
 #g12 {background-color: 
@@ -273,19 +318,24 @@ y#A53E0C
     flex-direction: column-reverse;}
 
     #grid{
-grid-template: repeat(7 , 1fr) / repeat(3 , 1fr);
-height: 90%;
-width: unset;
+        grid-template: repeat(7 , 1fr) / repeat(3 , 1fr);
+        height: 90%;
+        width: unset;
 
 
     }
 
     #character {
-
         height: 16em;
-
-
     }
+
+    footer {flex-direction: column;
+    justify-content: center;
+    
+    
+    }
+
+
 /*
     #top {
   top: 0em;
