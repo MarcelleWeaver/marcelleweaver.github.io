@@ -22,8 +22,8 @@ margin: 3em 1em -2em 1em;
 header img{
 min-width: 30%;
 max-width: 100%;
-
-max-height: 30em;
+aspect-ratio: 1/1;
+max-height: 15em;
 
 }
 
@@ -160,7 +160,7 @@ border-style: solid;
 border-width: 2px 0 2px 0;
 justify-content: center;
 align-items: center;
-width: 30%;
+width: 60%;
 margin: 0 auto 0 auto;
 }
 
