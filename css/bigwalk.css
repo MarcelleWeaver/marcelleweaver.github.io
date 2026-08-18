@@ -9,7 +9,7 @@ background-color: #E7E7E5;
   font-weight: 500;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+
 }
 
 header {
@@ -20,8 +20,6 @@ margin: 3em 1em -2em 1em;
 }
 
 header img{
-
-
 max-height: 15em;
 
 }
@@ -51,8 +49,7 @@ color: #E7E7E5;
 #character {    
 display: flex;
 position: relative;
-
-    margin: 1em;
+margin: 1em;
     
 }
 
@@ -66,11 +63,11 @@ left:0;
 }
 
 #special {
-
 background-image: url(../assets/eye.png);
 background-size: contain;
 background-repeat: no-repeat;
 z-index: 5;
+
 }
 
 #top:hover {
@@ -78,9 +75,9 @@ z-index: 5;
 }
 
 
-#top:hover ~ #top2 { background-color: yellow; animation: shake;
-    width: 20em; }
-
+#top:hover ~ #top2 { 
+background-color: yellow; animation: shake;
+width: 20em; }
 #top2 {
     
 /*top: 0.3em;
@@ -219,11 +216,14 @@ flex-direction: column;
 }
 
 footer p {
-margin: 1em auto 1em auto;
+margin: 0.2em auto 0.2em auto;
 text-align: center;
 }
 
+footer h1{
+text-align: center;
 
+}
 
 
 
