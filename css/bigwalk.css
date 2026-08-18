@@ -115,7 +115,7 @@ left: 1vw;
    
 left: 7vw;
   top: 12vw;
-  width: 8em;
+  width: 20vw;
   height: 15vw;
   z-index: 15;
 }
@@ -297,7 +297,7 @@ width: unset;
     #bottom {
         left: -3vw;
   top: 40vw;
-  width: 18em;
+  width: 40em;
   height: 40vw;
   z-index: 15;
 
