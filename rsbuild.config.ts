@@ -8,4 +8,9 @@ export default defineConfig({
       reactCompiler: true,
     }),
   ],
+    output: {
+    // Please replace <REPO_NAME> with the repository name.
+    // For example, "/my-project/"
+    assetPrefix: '/marcelleweaver.github.io/',
+  },
 });
