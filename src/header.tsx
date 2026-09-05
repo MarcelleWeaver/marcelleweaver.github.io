@@ -1,18 +1,8 @@
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
-import { RowsPhotoAlbum } from "react-photo-album";
-import "react-photo-album/rows.css";
 
-// import optional lightbox plugins
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import { useState } from "react";
-import { useEffect } from 'react';
 import { useNavigate } from "react-router";
-import Footer from "./footer";
 import { Link } from 'react-router'
-
-
 
 import name_stack from "./assets/name_stack.png";
 
@@ -22,20 +12,14 @@ import dropdown from "./assets/dropdown.png";
 
 import exit from "./assets/exit.png";
 
-import discord from "./assets/icons8-discord-64_background.png"
 
-import email from "./assets/icons8-email-48_background.png"
-
-import insta from "./assets/icons8-instagram-48_background.png"
-
-import smile from "./assets/smile_light.png"
 
 
 
 export default function Header({width , headerVersion } : {width : number, headerVersion :string}) {
     console.log("Wawa")
   if (width > 600) {
-          return <header>
+          return <header >
                 <nav>
                     <Menudesktop headerVersion={headerVersion}/>
                     <div id="name"><img src={name_stack} alt="marcelle weaver"/></div>
@@ -51,7 +35,7 @@ export default function Header({width , headerVersion } : {width : number, heade
           }
 
   else {
-        return <header>
+        return <header >
                 <nav>
                     <Menuphone headerVersion={headerVersion}/>
                     <div id="name"><img src={name_stack} alt="marcelle weaver"/></div>

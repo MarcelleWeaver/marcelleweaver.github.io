@@ -127,6 +127,12 @@ width: 3em;
 
 }
 
+header {
+position: relative;
+  z-index: 2;
+
+}
+
 @media only screen and (min-width: 601px) {
 
     nav {
