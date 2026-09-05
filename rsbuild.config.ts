@@ -10,4 +10,7 @@ export default defineConfig({
     }),
     pluginTailwindcss(),
   ],
+  html: {
+    title: 'Marcelle Weaver',
+  },
 });
