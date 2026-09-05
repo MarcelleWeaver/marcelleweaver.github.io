@@ -1,0 +1,222 @@
+
+
+#name {
+margin: 0em 0.1em;
+display: flex;
+flex: 0.7;
+
+}
+
+#name2 {
+display: none;
+}
+
+
+.menu_desktop {
+display: none;
+  margin-top: auto;
+
+}
+
+.menu .hidden {
+display: none;
+
+}
+
+.menu
+{
+  margin: 1em;
+  flex: 0.15;
+}
+
+.menu .showing {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: black;
+width: 110%;
+height: 600%;
+position: absolute;
+top: -20%;
+rotate: -6.5deg;
+background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
+}
+
+.menu .showing ul {
+margin-left: 2em;
+margin-top: 5em;
+position: relative;
+}
+
+.menu .showing li:first-of-type {
+position: absolute;
+right: 30%;
+width: 15%;
+top: -20%;
+}
+
+#name2 a {
+padding: unset;
+
+}
+
+
+#subtitle {
+padding: 0 0 0 0;
+  margin-top: -1em;
+  /*margin-bottom: -0.em;*/
+  }
+
+#subtitle h1{
+  margin-bottom: -0.2em;
+}
+
+
+
+nav {
+justify-content: space-around;
+background-color: black;
+rotate: 6.5deg;
+display: flex;
+align-items: center;
+padding: 1rem 2vw;
+margin: 2% -6% 2% -6%  ;
+position: relative;
+background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
+
+}
+
+
+footer {
+  width: 120% ;
+padding: 0.5em 2em;
+position: relative;
+left: -1em;
+flex-direction: column;
+font-size: 5vw;
+background-color: black;
+/*rotate: 6.5deg;*/
+color: white;
+display: flex;
+align-items: left;
+flex-wrap: wrap;
+/**/
+margin: 3% -3% 2% -3%;
+background-image: url('../assets/texturefabrik-photocopy_5_06-scaled.webp');
+
+
+}
+
+.footer_bits {
+display: flex;
+flex-direction: row;
+margin: 0.25em;
+
+}
+
+footer img {
+  height: 3em;
+padding: 0em 0.5em;
+
+}
+
+#silly  {
+width: 3em;
+  height: 2em;
+
+}
+
+@media only screen and (min-width: 601px) {
+
+    nav {
+    flex-direction:row-reverse;
+    rotate: 3.5deg;
+    }
+
+    #subtitle {
+    padding: 0 0 0 0.5em;
+    margin-top: -1em;
+    /*margin-bottom: -0.5em;*/
+    }
+
+    footer {
+    width: 100% ;
+    font-size: unset;
+    flex-direction: row;
+    /*rotate: 3.5deg;*/
+    }
+
+    #name {
+    display: none;
+
+    }
+
+    #name2 {
+    display: flex;
+    flex: 1.05;
+    margin: 0em 1em 0em 3em;
+
+
+    }
+
+    .options2 {
+    display: none;
+    }
+
+    .menu_desktop {
+
+    flex: 1;
+    display: flex;
+    
+    margin: 0 2em 0 0;
+    margin-top: auto;
+    justify-content: space-evenly;
+
+    }
+
+    .menu {
+    display: none;
+
+    }
+
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      max-width: 72rem;
+
+    }
+    
+
+    nav a:hover {
+      color: grey;
+    }
+
+
+    .footer_bits {
+    padding: 0.5em 3em;
+}
+
+
+}
+
+
+/* body style */
+body {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+.logo {
+    width: 60%;
+    margin: 0;
+  }
+  
+.logo img {
+    width: 60%;
+    height: auto;
+    margin: 0;
+  }

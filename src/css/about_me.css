@@ -1,0 +1,52 @@
+
+figure img {
+margin-bottom: 0.5em;
+
+}
+
+article {
+margin-bottom: 0.5em;
+
+}
+
+figure img {
+max-width: 95%;
+margin: auto;
+}
+
+figure {
+
+border-style: solid;
+border-color: black;
+border-width: 0 0 0.5em 0;
+
+}
+
+figure .figure2 {
+width: 80%;
+margin-left: 5%;
+border-style: solid;
+border-color: black;
+border-width: 0 0 0.5em 0;
+
+} 
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+figure {
+width: 80%;
+margin-left: 5%;
+
+}
+
+figure img {
+width: 20em;
+max-height: unset;
+
+}
+
+
+}
