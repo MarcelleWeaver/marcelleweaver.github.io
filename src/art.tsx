@@ -57,40 +57,32 @@ import vulph  from './images/vulph.png';
 
 
 const photos = [{src: bigHat , width:1582, height:772, alt: 'painting of bigHat'},
-
+{src: koi , width:706, height:935, alt: 'painting of koi'},
 {src: elliotUni_copy , width:768, height:431, alt: 'painting of elliotUni_copy'},
-
-{src: fast_plane , width:1085, height:600, alt: 'painting of fast_plane'},
 
 {src: heavy , width:924, height:1099, alt: 'painting of heavy'},
 
-{src: house , width:455, height:913, alt: 'painting of house'},
-
-{src: image1 , width:2038, height:1313, alt: 'painting of image1'},
-
-{src: jurgen , width:853, height:600, alt: 'painting of jurgen'},
-
-{src: koi , width:706, height:935, alt: 'painting of koi'},
-
-{src: mech , width:1421, height:814, alt: 'painting of mech'},
-
-{src: mechhand , width:366, height:512, alt: 'painting of mechhand'},
-
-{src: oranges , width:1528, height:600, alt: 'painting of oranges'},
-
-{src: pearl , width:229, height:600, alt: 'painting of pearl'},
-
-{src: PhoneBad , width:1551, height:904, alt: 'painting of PhoneBad'},
-
 {src: plane , width:2102, height:1146, alt: 'painting of plane'},
-
+{src: talkers , width:1967, height:1139, alt: 'painting of talkers'},
+{src: mech , width:1421, height:814, alt: 'painting of mech'},
+{src: house , width:455, height:913, alt: 'painting of house'},
+{src: utlraone , width:2038, height:1313, alt: 'painting of utlraone'},
+{src: jurgen , width:853, height:600, alt: 'painting of jurgen'},
+{src: mechhand , width:366, height:512, alt: 'painting of mechhand'},
+{src: pearl , width:229, height:600, alt: 'painting of pearl'},
+{src: PhoneBad , width:1551, height:904, alt: 'painting of PhoneBad'},
 {src: rubySentry , width:775, height:913, alt: 'painting of rubySentry'},
+
 
 {src: sydPlaneGreem , width:988, height:603, alt: 'painting of sydPlaneGreem'},
 
-{src: talkers , width:1967, height:1139, alt: 'painting of talkers'},
 
-{src: utlraone , width:2038, height:1313, alt: 'painting of utlraone'},
+{src: fast_plane , width:1085, height:600, alt: 'painting of fast_plane'},
+
+
+
+
+
 
 
 ];

@@ -18,15 +18,15 @@ const photos = [{src: CircularWide , width:2520, height:2267, alt: 'painting of 
 
 {src: DefaultWide , width:2550, height:1950, alt: 'painting of DefaultWide'},
 
-{src: gdc , width:3300, height:5100, alt: 'painting of gdc'},
+
+{src: VerticalDark , width:799, height:1325, alt: 'painting of VerticalDark'},
+
+{src: VerticalTwoTone , width:1216, height:1940, alt: 'painting of VerticalTwoTone'},
 
 {src: gdc , width:3300, height:5100, alt: 'painting of gdc'},
 
 {src: kabel , width:3300, height:5100, alt: 'painting of kabel'},
 
-{src: VerticalDark , width:799, height:1325, alt: 'painting of VerticalDark'},
-
-{src: VerticalTwoTone , width:1216, height:1940, alt: 'painting of VerticalTwoTone'},
 
 ]
 
