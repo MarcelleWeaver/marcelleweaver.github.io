@@ -10,3 +10,29 @@
 
 - Rsbuild: https://rsbuild.rs/llms.txt
 - Rspack: https://rspack.rs/llms.txt
+- Rstest: https://rstest.rs/llms.txt
+- Rslint: https://rslint.rs/llms.txt
+
+### Rslint
+
+- Run `npm run lint` to lint your code
+
+## Tools
+
+### Rstest
+
+- Run `npm run test` to run tests
+- Run `npm run test:watch` to run tests in watch mode
+
+### Prettier
+
+- Run `npm run format` to format your code
+
+### Biome
+
+- Run `npm run lint` to lint your code
+- Run `npm run format` to format your code
+
+### ESLint
+
+- Run `npm run lint` to lint your code

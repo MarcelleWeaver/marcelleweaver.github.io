@@ -3,33 +3,48 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-
   "scripts": {
-     "build": "rsbuild build",
+    "build": "rsbuild build",
+    "build-storybook": "storybook build",
+    "check": "biome check --write",
     "dev": "rsbuild",
+    "format": "biome format --write",
+    "lint": "eslint .",
     "preview": "rsbuild preview",
+    "storybook": "storybook dev -p 6006",
     "test": "rstest",
     "test:watch": "rstest --watch"
   },
   "dependencies": {
-  "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "react-photo-album": "^3.6.1",
-    "react-router-dom": "^7.18.3",
-    "yet-another-react-lightbox": "^3.32.2"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-  "@rsbuild/core": "^2.2.3",
+    "@biomejs/biome": "2.5.8",
+    "@eslint/js": "^10.0.1",
+    "@rsbuild/core": "^2.2.3",
     "@rsbuild/plugin-react": "^2.1.0",
-    "@rstest/adapter-rsbuild": "^0.11.12",
-    "@rstest/core": "^0.11.12",
+    "@rsbuild/plugin-tailwindcss": "^2.0.3",
+    "@rslint/core": "^0.8.0",
+    "@rstest/adapter-rsbuild": "^0.11.10",
+    "@rstest/core": "^0.11.10",
+    "@storybook/addon-docs": "^10.6.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
-    "@types/node": "^26.4.1",
+    "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "happy-dom": "^20.14.0",
-    "typescript": "^7.0.2"
+    "@types/react-dom": "^19.2.5",
+    "eslint": "^10.8.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.4",
+    "globals": "^17.11.0",
+    "happy-dom": "^20.12.0",
+    "prettier": "^3.9.6",
+    "storybook": "^10.6.0",
+    "storybook-react-rsbuild": "latest",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.67.0"
   }
 }

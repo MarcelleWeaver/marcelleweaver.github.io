@@ -1,13 +1,13 @@
 import { defineConfig } from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
+import { pluginTailwindcss } from '@rsbuild/plugin-tailwindcss';
 
 // Docs: https://rsbuild.rs/config/
 export default defineConfig({
-  plugins: [pluginReact()],
-
-  output: {
-    // Please replace <REPO_NAME> with the repository name.
-    // For example, "/my-project/"
-    assetPrefix: '/marcelleweaver.github.io/',
-  },
+  plugins: [
+    pluginReact({
+      reactCompiler: true,
+    }),
+    pluginTailwindcss(),
+  ],
 });
