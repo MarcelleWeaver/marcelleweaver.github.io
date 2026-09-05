@@ -56,39 +56,41 @@ import vulph  from './images/vulph.png';
 
 
 
-const photos = [{src: bigHat , width:1582, height:772},
+const photos = [{src: bigHat , width:1582, height:772, alt: 'painting of bigHat'},
 
-{src: koi , width:706, height:935},
+{src: elliotUni_copy , width:768, height:431, alt: 'painting of elliotUni_copy'},
 
-{src: elliotUni_copy , width:768, height:431},
+{src: fast_plane , width:1085, height:600, alt: 'painting of fast_plane'},
 
-{src: heavy , width:924, height:1099},
+{src: heavy , width:924, height:1099, alt: 'painting of heavy'},
 
-{src: plane , width:2102, height:1146},
+{src: house , width:455, height:913, alt: 'painting of house'},
 
-{src: talkers , width:1967, height:1139},
+{src: image1 , width:2038, height:1313, alt: 'painting of image1'},
 
-{src: mech , width:1421, height:814},
+{src: jurgen , width:853, height:600, alt: 'painting of jurgen'},
 
-{src: house , width:455, height:913},
+{src: koi , width:706, height:935, alt: 'painting of koi'},
 
-{src: image1 , width:2038, height:1313},
+{src: mech , width:1421, height:814, alt: 'painting of mech'},
 
-{src: jurgen , width:853, height:600},
+{src: mechhand , width:366, height:512, alt: 'painting of mechhand'},
 
-{src: mechhand , width:366, height:512},
+{src: oranges , width:1528, height:600, alt: 'painting of oranges'},
 
-{src: pearl , width:229, height:600},
+{src: pearl , width:229, height:600, alt: 'painting of pearl'},
 
-{src: PhoneBad , width:1551, height:904},
+{src: PhoneBad , width:1551, height:904, alt: 'painting of PhoneBad'},
 
-{src: rubySentry , width:775, height:913},
+{src: plane , width:2102, height:1146, alt: 'painting of plane'},
 
-{src: sydPlaneGreem , width:988, height:603},
+{src: rubySentry , width:775, height:913, alt: 'painting of rubySentry'},
 
-{src: fast_plane , width:1085, height:600},
+{src: sydPlaneGreem , width:988, height:603, alt: 'painting of sydPlaneGreem'},
 
-{src: vulph , width:988, height:838},
+{src: talkers , width:1967, height:1139, alt: 'painting of talkers'},
+
+{src: utlraone , width:2038, height:1313, alt: 'painting of utlraone'},
 
 
 ];
