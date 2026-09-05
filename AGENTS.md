@@ -10,11 +10,3 @@
 
 - Rsbuild: https://rsbuild.rs/llms.txt
 - Rspack: https://rspack.rs/llms.txt
-- Rstest: https://rstest.rs/llms.txt
-
-## Tools
-
-### Rstest
-
-- Run `npm run test` to run tests
-- Run `npm run test:watch` to run tests in watch mode
