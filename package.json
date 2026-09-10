@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rsbuild build && shx cp build/index.html build/404.html",
+    "build": "rsbuild build && shx cp dist/index.html dist/404.html",
     "build-storybook": "storybook build",
     "check": "biome check --write",
     "dev": "rsbuild",
