@@ -1,2 +1,1 @@
 Disallow: /about_me.html$ 
-Disallow: /index.html$
