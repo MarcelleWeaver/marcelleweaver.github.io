@@ -117,7 +117,7 @@ const Dropdown = ({callBack, headerVersion}:{callBack : Function, headerVersion:
           <ul>             
           <li><img  onClick={(event) => callBack(event)} className="options2"  src={exit} alt="exit" /></li>               
           <li><h2 className="nav_directions"  onClick={() => {nav("/art");}}>art</h2>                     </li> 
-         <li><h2 className="nav_directions"  onClick={() => {nav("/aboutMe");}}>design</h2>               </li>
+         <li><h2 className="nav_directions"  onClick={() => {nav("/design");}}>design</h2>               </li>
          <li><h2 className="nav_directions"><Link to="https://meep-marcelle.itch.io/">games</Link></h2>  </li>        
           
 
