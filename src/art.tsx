@@ -28,7 +28,6 @@ import image1  from './images/image1.jpg';
 
 import jurgen  from './images/jurgen.png';
 
-import koi  from './images/koi.webp';
 
 import mech  from './images/mech.png';
 
@@ -52,12 +51,13 @@ import utlraone  from './images/utlraone.jpg';
 
 import vulph  from './images/vulph.png';
 
-
+import koi  from './images/koi.png';
 
 
 
 const photos = [{src: bigHat , width:1582, height:772, alt: 'painting of bigHat'},
-{src: koi , width:706, height:935, alt: 'painting of koi'},
+{src: koi , width:853, height:1219, alt: 'painting of koi'},
+
 {src: elliotUni_copy , width:768, height:431, alt: 'painting of elliotUni_copy'},
 
 {src: heavy , width:924, height:1099, alt: 'painting of heavy'},

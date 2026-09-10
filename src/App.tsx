@@ -8,7 +8,7 @@ import Design from "./design";
 function App() {
     return (
         <div className="App">
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route  path="/" element={<Art />} />
                     <Route  path="/art" element={<Art />} />
@@ -16,7 +16,7 @@ function App() {
                     <Route  path="/design" element={<Design />} />
                     <Route  path="/aboutMe" element={<AboutMe />} />
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         </div>
     );
 }

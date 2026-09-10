@@ -17,7 +17,7 @@ import exit from "./assets/exit.png";
 
 
 export default function Header({width , headerVersion } : {width : number, headerVersion :string}) {
-    console.log("Wawa")
+
   if (width > 600) {
           return <header >
                 <nav>

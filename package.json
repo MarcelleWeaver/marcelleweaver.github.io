@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rsbuild build",
+    "build": "rsbuild build && shx cp build/index.html build/404.html",
     "build-storybook": "storybook build",
     "check": "biome check --write",
     "dev": "rsbuild",
@@ -44,6 +44,7 @@
     "globals": "^17.11.0",
     "happy-dom": "^20.12.0",
     "prettier": "^3.9.6",
+    "shx": "^0.4.0",
     "storybook": "^10.6.0",
     "storybook-react-rsbuild": "latest",
     "tailwindcss": "^4.3.3",
