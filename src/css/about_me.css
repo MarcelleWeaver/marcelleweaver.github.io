@@ -29,9 +29,7 @@ border-style: solid;
 border-color: black;
 border-width: 0 0 0.5em 0;
 
-} 
-
-
+}
 
 
 @media only screen and (min-width: 601px) {
@@ -41,6 +39,7 @@ width: 80%;
 margin-left: 5%;
 
 }
+
 
 figure img {
 width: 20em;

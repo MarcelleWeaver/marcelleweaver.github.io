@@ -56,7 +56,7 @@ import koi  from './images/koi.png';
 
 
 const photos = [{src: bigHat , width:1582, height:772, alt: 'painting of bigHat'},
-{src: koi , width:853, height:1219, alt: 'painting of koi'},
+{src: koi , width:794, height:1189, alt: 'painting of koi'},
 
 {src: elliotUni_copy , width:768, height:431, alt: 'painting of elliotUni_copy'},
 
@@ -70,7 +70,7 @@ const photos = [{src: bigHat , width:1582, height:772, alt: 'painting of bigHat'
 {src: jurgen , width:853, height:600, alt: 'painting of jurgen'},
 {src: mechhand , width:366, height:512, alt: 'painting of mechhand'},
 {src: pearl , width:229, height:600, alt: 'painting of pearl'},
-{src: PhoneBad , width:1551, height:904, alt: 'painting of PhoneBad'},
+{src: PhoneBad , width:5834, height:2297, alt: 'painting of PhoneBad'},
 {src: rubySentry , width:775, height:913, alt: 'painting of rubySentry'},
 
 
@@ -133,7 +133,8 @@ export default function Gallery() {
       open={index >= 0}
       index={index}
       close={() => setIndex(-1)}
-      plugins={[Thumbnails]}/>
+      // plugins={[Thumbnails]}
+      />
     <Footer />
   </div>
 }
